@@ -1,0 +1,13 @@
+.rojito {
+    color: rgb(248, 106, 106);
+    font-size: 50px;
+}
+
+.negrito {
+    font-size: 30px;
+    border-top: brown 1px;
+}
+
+#elParrafo {
+    color: chartreuse;
+}
