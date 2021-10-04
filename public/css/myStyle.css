@@ -8,3 +8,12 @@ body {
 .P-component {
     text-align: left;
 }
+
+.mainTitle {
+    font-family: "Ubuntu", sans-serif;
+    margin-top: 40px;
+}
+
+.separador {
+    margin-top: 50px;
+}
