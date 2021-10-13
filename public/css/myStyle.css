@@ -17,3 +17,13 @@ body {
 .separador {
     margin-top: 50px;
 }
+
+.comp-Title {
+    color: blueviolet;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.comp-Text {
+    color: black;
+    font-family: "Ubuntu", sans-serif;
+}
