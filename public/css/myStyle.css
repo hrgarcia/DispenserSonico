@@ -1,8 +1,6 @@
-body {
-    background-color: #12adff;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg stroke='%23BFFFD4' stroke-width='66.7' stroke-opacity='0.05' %3E%3Ccircle fill='%2312ADFF' cx='0' cy='0' r='1800'/%3E%3Ccircle fill='%2335a1f2' cx='0' cy='0' r='1700'/%3E%3Ccircle fill='%234694e4' cx='0' cy='0' r='1600'/%3E%3Ccircle fill='%235089d5' cx='0' cy='0' r='1500'/%3E%3Ccircle fill='%23577dc7' cx='0' cy='0' r='1400'/%3E%3Ccircle fill='%235c71b8' cx='0' cy='0' r='1300'/%3E%3Ccircle fill='%235e66a8' cx='0' cy='0' r='1200'/%3E%3Ccircle fill='%235e5c99' cx='0' cy='0' r='1100'/%3E%3Ccircle fill='%235d518a' cx='0' cy='0' r='1000'/%3E%3Ccircle fill='%235a477b' cx='0' cy='0' r='900'/%3E%3Ccircle fill='%23563d6d' cx='0' cy='0' r='800'/%3E%3Ccircle fill='%2351345f' cx='0' cy='0' r='700'/%3E%3Ccircle fill='%234b2c51' cx='0' cy='0' r='600'/%3E%3Ccircle fill='%23442344' cx='0' cy='0' r='500'/%3E%3Ccircle fill='%233c1b38' cx='0' cy='0' r='400'/%3E%3Ccircle fill='%2334142c' cx='0' cy='0' r='300'/%3E%3Ccircle fill='%232c0d21' cx='0' cy='0' r='200'/%3E%3Ccircle fill='%23240417' cx='0' cy='0' r='100'/%3E%3C/g%3E%3C/svg%3E");
-    background-attachment: fixed;
-    background-size: cover;
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(24deg, rgba(2,0,36,1) 0%, rgba(2,0,37,1) 8%, rgba(4,3,63,1) 28%, rgba(9,9,121,1) 35%, rgba(8,21,129,1) 39%, rgba(4,124,197,1) 72%, rgba(3,155,218,1) 82%, rgba(0,204,255,1) 95%, rgba(0,212,255,1) 100%);
 }
 
 .P-component {
@@ -19,7 +17,7 @@ body {
 }
 
 .comp-Title {
-    color: blueviolet;
+    color: rgba(19, 30, 70, 0.687);
     font-family: "Ubuntu", sans-serif;
 }
 

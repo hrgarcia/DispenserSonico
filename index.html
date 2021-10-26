@@ -48,33 +48,34 @@
             }
         </style>
     </head>
-    <body class="d-flex h-100 text-center text-white bg-dark">
-        <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-            <header class="mb-auto">
-                <div>
-                    <h3 class="float-md-start mb-0">Dispenser sónico</h3>
-                    <nav
-                        class="
-                            nav nav-masthead
-                            justify-content-center
-                            float-md-end
-                        "
-                    >
-                        <a class="nav-link active" aria-current="page" href="#"
-                            >Inicio</a
-                        >
-                        <a class="nav-link" href="#">Componentes</a>
-                        <a class="nav-link" href="#">Código fuente</a>
-                    </nav>
+    <body class="h-100 text-center text-white bg-dark">
+        <nav class="navbar sticky-sm-top navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand">Dispenser Sónico</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Componentes">Componentes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Código Fuente">Código fuente</a>
+                        </li>
+                    <form class="d-flex">
                 </div>
-            </header>
-
+            </div>
+        </nav>
+        <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
             <!--Carrusel de imagenes-->
             <div
                 id="carouselExampleIndicators"
-                class="carousel slide"
+                class="carousel slide border border-dark border-5"
                 data-bs-ride="carousel"
-                style="margin-top: 50px"
             >
                 <div class="carousel-indicators">
                     <button
@@ -149,7 +150,7 @@
             </div>
 
             <main class="px-3">
-                <h1 class="mainTitle">Componentes</h1>
+                <h1 id = "Componentes" class="mainTitle">Componentes</h1>
                 <p class="lead">Acá agregar texto bienvenida.</p>
             </main>
 
@@ -206,7 +207,7 @@
                         <div class="card">
                             <div class="card-body">
                                 <img
-                                    width="150"
+                                    width="115"
                                     src="/public/images/miniBomba.jpg"
                                     alt=""
                                 />
@@ -220,8 +221,7 @@
                         <div class="card">
                             <div class="card-body">
                                 <img
-                                    width="150"
-                                    heigth="150"
+                                    width="105"
                                     src="/public/images/led.png"
                                     alt=""
                                 />
@@ -265,7 +265,6 @@
                                 <img
                                     width="150"
                                     src="/public/images/rele.png"
-                                    alt=""
                                 />
                             </div>
                         </div>
@@ -277,10 +276,8 @@
                         <div class="card">
                             <div class="card-body">
                                 <img
-                                    width="150"
-                                    height="150"
+                                    width="29"
                                     src="/public/images/resistencia.png"
-                                    alt=""
                                 />
                             </div>
                         </div>
@@ -322,7 +319,7 @@
                         <div class="card">
                             <div class="card-body">
                                 <img
-                                    width="150"
+                                    width="116"
                                     src="/public/images/miniBomba.jpg"
                                     alt=""
                                 />
@@ -384,7 +381,7 @@
                         <div class="card">
                             <div class="card-body">
                                 <img
-                                    width="150"
+                                    width="105"
                                     src="/public/images/CablesMachoMacho.jpg"
                                     alt=""
                                 />
@@ -415,7 +412,7 @@
                         <div class="card">
                             <div class="card-body">
                                 <img
-                                    width="150"
+                                    width="155"
                                     src="/public/images/cablesMH.webp"
                                     alt=""
                                 />
@@ -423,36 +420,9 @@
                         </div>
                     </div>
                 </div>
-                <br />
-                <br />
-                <br />
             </div>
+            <h1 id = "Código Fuente" class="mainTitle">Código Fuente</h1>
             <br />
-            <br />
-
-            <p class="lead">
-                <a
-                    href="#"
-                    class="
-                        btn btn-lg btn-secondary
-                        fw-bold
-                        border-white
-                        bg-white
-                    "
-                    >Learn more</a
-                >
-            </p>
-
-            <footer class="mt-auto text-white-50">
-                <p>
-                    Cover template for
-                    <a href="https://getbootstrap.com/" class="text-white"
-                        >Bootstrap</a
-                    >, by
-                    <a href="https://twitter.com/mdo" class="text-white">@mdo</a
-                    >.
-                </p>
-            </footer>
         </div>
 
         <!-- JavaScript Bundle with Popper -->
