@@ -13,7 +13,7 @@ body{
 }
 
 .separador {
-    margin-top: 50px;
+    margin-top: 25px;
 }
 
 .comp-Title {
@@ -24,4 +24,24 @@ body{
 .comp-Text {
     color: black;
     font-family: "Ubuntu", sans-serif;
+}
+
+.right-Title{
+    text-align: right;
+    margin-right: 5%;
+}
+.left-Title{
+    text-align: left;
+    margin-left: 5%;
+}
+.right-Text{
+    text-align: right;
+    direction: rtl;
+}
+.left-Text{
+    text-align: left;
+}
+.right-ul{
+    background-position: left;
+    padding-right: 6%;
 }
