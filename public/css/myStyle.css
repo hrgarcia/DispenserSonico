@@ -45,3 +45,8 @@ body{
     background-position: left;
     padding-right: 6%;
 }
+.containerCodigo{
+    color: black;
+    width: 800px;
+    margin-left: 25%;
+}
